@@ -29,7 +29,7 @@
 
 using namespace oboe;
 
-class Game {
+class Game : public AudioStreamCallback {
 public:
     explicit Game(AAssetManager *assetManager);
 
@@ -41,6 +41,9 @@ public:
     void tap(int64_t eventTimeAsUptime);
 
     // TODO: Add methods here
+    // Inherited from oboe::AudioStreamCallback
+    DataCallbackResult
+    onAudioReady(AudioStream *oboeStream, void *audioData, int32_t numFrames) override;
 
 private:
     AAssetManager *mAssetManager{nullptr};

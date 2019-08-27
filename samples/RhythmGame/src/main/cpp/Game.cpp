@@ -30,6 +30,8 @@ void Game::start() {
     builder.setFormat(AudioFormat::I16);
     builder.setChannelCount(2);
     builder.setSampleRate(48000);
+
+    builder.setCallback(this);
 }
 
 void Game::tap(int64_t eventTimeAsUptime) {
@@ -48,4 +50,9 @@ void Game::onSurfaceChanged(int widthInPixels, int heightInPixels) {
 }
 
 void Game::onSurfaceDestroyed() {
+}
+
+DataCallbackResult Game::onAudioReady(AudioStream *oboeStream, void *audioData, int32_t numFrames) {
+    mClap->renderAudio(static_cast<int16_t *>(audioData), numFrames);
+    return DataCallbackResult::Continue;
 }
