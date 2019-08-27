@@ -24,3 +24,6 @@
 3632	5003	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9b68e5fbe8b4524b
 3632	5210	0	CMakeFiles/native-lib.dir/src/main/cpp/Game.cpp.o	656883d31fe53ef0
 5210	5285	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	81e8cd6a0edf8937
+4	1181	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9b68e5fbe8b4524b
+6	1417	0	CMakeFiles/native-lib.dir/src/main/cpp/Game.cpp.o	656883d31fe53ef0
+1418	1529	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	81e8cd6a0edf8937
