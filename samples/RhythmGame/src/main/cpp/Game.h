@@ -48,6 +48,7 @@ private:
     // TODO: Add class members
     SoundRecording *mClap{nullptr};
 
+    AudioStream *mAudioStream{nullptr};
 };
 
 

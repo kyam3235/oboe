@@ -25,6 +25,11 @@ Game::Game(AAssetManager *assetManager): mAssetManager(assetManager) {
 void Game::start() {
     // TODO: Add your code here
     mClap = SoundRecording::loadFromAssets(mAssetManager, "CLAP.raw");
+
+    AudioStreamBuilder builder;
+    builder.setFormat(AudioFormat::I16);
+    builder.setChannelCount(2);
+    builder.setSampleRate(48000);
 }
 
 void Game::tap(int64_t eventTimeAsUptime) {
