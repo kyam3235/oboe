@@ -32,6 +32,18 @@ void Game::start() {
     builder.setSampleRate(48000);
 
     builder.setCallback(this);
+
+    // Open the stream
+    Result result = builder.openStream(&mAudioStream);
+    if(result != Result::OK){
+        LOGE("Failed to open stream. Error: %s", convertToText(result));
+    }
+
+    // Start the stream
+    result = mAudioStream->requestStart();
+    if(result != Result::OK){
+        LOGE("Failed to start stream. Error: %s", convertToText(result));
+    }
 }
 
 void Game::tap(int64_t eventTimeAsUptime) {
