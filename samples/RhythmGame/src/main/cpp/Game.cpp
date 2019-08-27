@@ -24,6 +24,7 @@ Game::Game(AAssetManager *assetManager): mAssetManager(assetManager) {
 
 void Game::start() {
     // TODO: Add your code here
+    mClap = SoundRecording::loadFromAssets(mAssetManager, "CLAP.raw");
 }
 
 void Game::tap(int64_t eventTimeAsUptime) {

@@ -46,6 +46,7 @@ private:
     AAssetManager *mAssetManager{nullptr};
 
     // TODO: Add class members
+    SoundRecording *mClap{nullptr};
 
 };
 
