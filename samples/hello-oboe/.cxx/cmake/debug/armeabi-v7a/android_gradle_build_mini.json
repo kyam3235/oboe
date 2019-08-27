@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/CMakeLists.txt",
+    "/Users/kyohei/AndroidStudioProjects/oboe/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "oboe-Debug-armeabi-v7a": {
+      "artifactName": "oboe",
+      "buildCommand": "/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a --target oboe",
+      "abi": "armeabi-v7a",
+      "output": "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a/oboe-bin/liboboe.a"
+    },
+    "hello-oboe-Debug-armeabi-v7a": {
+      "artifactName": "hello-oboe",
+      "buildCommand": "/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a --target hello-oboe",
+      "abi": "armeabi-v7a",
+      "output": "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-oboe.so"
+    }
+  }
+}

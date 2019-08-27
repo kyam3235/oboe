@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/CMakeLists.txt",
+    "/Users/kyohei/AndroidStudioProjects/oboe/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "hello-oboe-Release-arm64-v8a": {
+      "artifactName": "hello-oboe",
+      "buildCommand": "/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/release/arm64-v8a --target hello-oboe",
+      "abi": "arm64-v8a",
+      "output": "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/build/intermediates/cmake/release/obj/arm64-v8a/libhello-oboe.so"
+    },
+    "oboe-Release-arm64-v8a": {
+      "artifactName": "oboe",
+      "buildCommand": "/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/release/arm64-v8a --target oboe",
+      "abi": "arm64-v8a",
+      "output": "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/release/arm64-v8a/oboe-bin/liboboe.a"
+    }
+  }
+}

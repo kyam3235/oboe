@@ -1,0 +1,174 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/CMakeLists.txt",
+		"/Users/kyohei/AndroidStudioProjects/oboe/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-oboe-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "hello-oboe",
+			"buildCommand" : "/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86 --target hello-oboe",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dhello_oboe_EXPORTS -I../../../../../../include -I../../../../../debug-utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/debug-utils/trace.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dhello_oboe_EXPORTS -I../../../../../../include -I../../../../../debug-utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/src/main/cpp/jni_bridge.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dhello_oboe_EXPORTS -I../../../../../../include -I../../../../../debug-utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/src/main/cpp/PlayAudioEngine.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dhello_oboe_EXPORTS -I../../../../../../include -I../../../../../debug-utils  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/src/main/cpp/SineGenerator.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/build/intermediates/cmake/debug/obj/x86/libhello-oboe.so",
+			"toolchain" : "5619955277295025732"
+		},
+		"oboe-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "oboe",
+			"buildCommand" : "/Users/kyohei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86 --target oboe",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/aaudio/AAudioLoader.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/aaudio/AudioStreamAAudio.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/common/LatencyTuner.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/common/AudioStream.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/common/AudioStreamBuilder.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/common/Utilities.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/fifo/FifoBuffer.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/fifo/FifoController.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/fifo/FifoControllerBase.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/fifo/FifoControllerIndirect.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/opensles/AudioInputStreamOpenSLES.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/opensles/AudioOutputStreamOpenSLES.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/opensles/AudioStreamBuffered.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/opensles/AudioStreamOpenSLES.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/opensles/EngineOpenSLES.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/opensles/OpenSLESUtilities.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android16 --gcc-toolchain=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../../../src -I../../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Wall -Werror -O0 -fno-limit-debug-info  -fPIC   -std=c++11 -Wall -Werror  -c ",
+					"src" : "/Users/kyohei/AndroidStudioProjects/oboe/src/opensles/OutputMixerOpenSLES.cpp",
+					"workingDirectory" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/x86/oboe-bin/liboboe.a",
+			"toolchain" : "5619955277295025732"
+		}
+	},
+	"toolchains" : 
+	{
+		"5619955277295025732" : 
+		{
+			"cCompilerExecutable" : "/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/kyohei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

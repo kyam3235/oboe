@@ -1,0 +1,24 @@
+# ninja log v5
+1	346	0	oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o	812fb655b999d379
+7	350	0	oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o	ddf979cf706a0ddb
+350	546	0	oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o	906d1c5b66b57035
+546	612	0	oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o	d99862ff8d3fbb0e
+347	619	0	oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o	63b784c229222e19
+3	696	0	oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o	51babf6af792747c
+612	728	0	oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o	d934143fe80a7537
+2	748	0	oboe-bin/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o	27b26a95aa3d3e0f
+5	1405	0	oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o	9635c8ef7ec7d0a3
+728	1444	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o	df96bee9b4681e02
+1	1799	0	oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o	564fa15908750268
+697	1895	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o	b7165b9b9c4660d
+619	1897	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o	d4e5476553fa044a
+1444	1937	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o	f3765440de124c5c
+748	1961	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o	cd32111e57dfde2c
+1405	2111	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o	fa5507f82aa185a6
+1799	2242	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o	ed9bec98bde6225c
+2242	2301	0	oboe-bin/liboboe.a	3428d914856f6e92
+2302	2370	0	CMakeFiles/hello-oboe.dir/Users/kyohei/AndroidStudioProjects/oboe/samples/debug-utils/trace.cpp.o	2d783d8cbae760b0
+2304	2427	0	CMakeFiles/hello-oboe.dir/src/main/cpp/SineGenerator.cpp.o	847227e179271b02
+2302	2715	0	CMakeFiles/hello-oboe.dir/src/main/cpp/jni_bridge.cpp.o	d4b816a94a15d3
+2302	2745	0	CMakeFiles/hello-oboe.dir/src/main/cpp/PlayAudioEngine.cpp.o	5913acd3fe88c0ac
+2746	2810	0	../../../../build/intermediates/cmake/debug/obj/x86/libhello-oboe.so	204567976f3b96cf

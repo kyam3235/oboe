@@ -1,0 +1,26 @@
+# ninja log v5
+9	1033	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o	98299e913f6192fd
+5	1085	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o	ab0b391ef9f1ecb9
+1034	1296	0	oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o	66c56a445463975a
+7	1733	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o	d1d5e1a81397d917
+10	1777	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o	60b3b45ad9f516f9
+2	1801	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o	58f4ba672fba6f
+6	1896	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o	35c57b2aacc59566
+1296	1938	0	oboe-bin/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o	ee3991cdb2e9d4e4
+1801	1959	0	oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o	e03c3f9e36cae376
+1938	2104	0	oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o	c385c6dca1c3b010
+1959	2194	0	oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o	a6236a02b3d0ed44
+1896	2298	0	oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o	15d3731e8850bee3
+2104	2320	0	oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o	38a86330fbb923da
+1733	2599	0	oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o	82320677e09aa99c
+1085	3210	0	oboe-bin/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o	ebc046351043fcce
+1777	3259	0	oboe-bin/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o	8ea7edc78497e64
+2194	3558	0	oboe-bin/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o	4735d29c6468312
+3558	3632	0	oboe-bin/liboboe.a	3428d914856f6e92
+3633	4747	0	CMakeFiles/native-lib.dir/src/main/cpp/audio/Mixer.cpp.o	f94d4b675030fdf6
+3633	4836	0	CMakeFiles/native-lib.dir/src/main/cpp/ui/OpenGLFunctions.cpp.o	19a8e13195548f8b
+3634	4916	0	CMakeFiles/native-lib.dir/src/main/cpp/utils/UtilityFunctions.cpp.o	2884e3c64595ac84
+3633	4917	0	CMakeFiles/native-lib.dir/src/main/cpp/audio/SoundRecording.cpp.o	e4b5362c9cc17218
+3632	5003	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9b68e5fbe8b4524b
+3632	5210	0	CMakeFiles/native-lib.dir/src/main/cpp/Game.cpp.o	656883d31fe53ef0
+5210	5285	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	81e8cd6a0edf8937

@@ -1,0 +1,6 @@
+/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/hello-oboe.dir
+/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/edit_cache.dir
+/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/rebuild_cache.dir
+/Users/kyohei/AndroidStudioProjects/oboe/samples/hello-oboe/.cxx/cmake/debug/armeabi-v7a/oboe-bin/CMakeFiles/oboe.dir
