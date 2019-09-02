@@ -33,11 +33,17 @@ void Game::start() {
 
     builder.setCallback(this);
 
+    builder.setPerformanceMode(PerformanceMode::LowLatency);
+    builder.setSharingMode(SharingMode::Exclusive);
+
     // Open the stream
     Result result = builder.openStream(&mAudioStream);
     if(result != Result::OK){
         LOGE("Failed to open stream. Error: %s", convertToText(result));
     }
+
+    // Reduce stream latency by setting the buffer size to a multiple of the burst size
+    mAudioStream->setBufferSizeInFrames(mAudioStream->getFramesPerBurst() * 2);
 
     // Start the stream
     result = mAudioStream->requestStart();
